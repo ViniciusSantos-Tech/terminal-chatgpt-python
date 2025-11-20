@@ -20,11 +20,11 @@ def chat():
         resposta = client.responses.create(
             model="gpt-4o-mini",
             instructions=instructions,
-            input=history
+            input=historico
         )
 
         print("IA:", resposta.output_text)
         
-        history.append({"role": "assistant", "content": resposta.output_text})
+        historico.append({"role": "assistant", "content": resposta.output_text})
 
 chat()
