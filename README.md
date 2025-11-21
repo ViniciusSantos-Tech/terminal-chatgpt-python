@@ -8,7 +8,7 @@ Um chatbot moderno com interface gráfica desenvolvido em Python utilizando Cust
 - Integração com modelo GPT-4o-mini da OpenAI
 - Proteção contra conteúdo inadequado
 - Histórico de conversa em tempo real
-- Envio de mensagens com Enter ou botão
+- Envio de mensagens com Enter
 - Respostas curtas e objetivas
 
 ## 📋 Pré-requisitos
