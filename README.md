@@ -1,25 +1,58 @@
-# Chatbot de Terminal com OpenAI
+# Chatbot com Interface Gráfica - OpenAI
 
-Um chatbot interativo de linha de comando desenvolvido em Python que utiliza a API da OpenAI para fornecer respostas inteligentes e contextualizadas.
+Um chatbot moderno com interface gráfica desenvolvido em Python utilizando CustomTkinter e API da OpenAI para respostas inteligentes e seguras.
 
-##  Funcionalidades
+## 🚀 Funcionalidades
 
-- Interface de chat interativa via terminal
+- Interface gráfica moderna e dark
 - Integração com modelo GPT-4o-mini da OpenAI
-- Instruções customizáveis para o comportamento do assistente
-- Comandos de saída intuitivos ("sair", "exit", "quit")
-- Respostas em tempo real
+- Proteção contra conteúdo inadequado
+- Histórico de conversa em tempo real
+- Envio de mensagens com Enter ou botão
+- Respostas curtas e objetivas
 
 ## 📋 Pré-requisitos
 
 - Python 3.6+
 - Chave de API da OpenAI
-- Biblioteca OpenAI Python
+- Bibliotecas: `openai` e `customtkinter`
 
 ## 🔧 Instalação
-
-1. Clone este repositório:
 ```bash
-git clone https://github.com/seu-usuario/chatbot-terminal-openai.git
-cd chatbot-terminal-openai
+1. Instale as dependências:
+pip install openai customtkinter
+```
+## Configure sua chave da OpenAI no código:
+```bash
+client = OpenAI(api_key="SUA_CHAVE_AQUI")
+```
+## 🎮 Como Usar
+- Execute o script Python
+
+- Digite sua pergunta no campo de texto
+
+- Pressione Enter
+
+- Veja a resposta do assistente na caixa de chat
+
+## ⚙️ Características Técnicas
+- Framework GUI: CustomTkinter
+
+- Modelo AI: GPT-4o-mini
+
+- Tema: Dark mode
+
+- Layout: 400x400 pixels (fixo)
+
+# 🛡️ Moderação
+ ## O chatbot possui filtros automáticos para:
+
+- Conteúdo sexual ou inadequado
+
+- Perguntas sobre partes íntimas
+
+- Temas proibidos
+
+## 📝 Desenvolvido por
+# Vinicius Santos-Tech - Chatbot V2🦾
 
